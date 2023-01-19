@@ -27,13 +27,9 @@ def build_vertical_pile(list_of_cubes):
         pile_volume += removed_cube ** 3
 
     if is_possible:
-        output = f"Yes {pile_volume}"
-        print(output)
-        return output
+        print(f"Yes {pile_volume}")
     else:
-        output = f"No {pile_volume}"
-        print(output)
-        return output
+        print(f"No {pile_volume}")
 
 
 def produce(num_of_tests):
